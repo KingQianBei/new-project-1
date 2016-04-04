@@ -15,6 +15,7 @@
 		3CA229C41CB28BBD002758A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA229C21CB28BBD002758A4 /* LaunchScreen.storyboard */; };
 		3CA229CF1CB28BBD002758A4 /* ayiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA229CE1CB28BBD002758A4 /* ayiTests.m */; };
 		3CA229DA1CB28BBD002758A4 /* ayiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA229D91CB28BBD002758A4 /* ayiUITests.m */; };
+		3CA229E91CB28C0D002758A4 /* testMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA229E81CB28C0D002758A4 /* testMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3CA229D51CB28BBD002758A4 /* ayiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ayiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA229D91CB28BBD002758A4 /* ayiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ayiUITests.m; sourceTree = "<group>"; };
 		3CA229DB1CB28BBD002758A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA229E71CB28C0D002758A4 /* testMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testMode.h; sourceTree = "<group>"; };
+		3CA229E81CB28C0D002758A4 /* testMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3CA229C21CB28BBD002758A4 /* LaunchScreen.storyboard */,
 				3CA229C51CB28BBD002758A4 /* Info.plist */,
 				3CA229B41CB28BBD002758A4 /* Supporting Files */,
+				3CA229E71CB28C0D002758A4 /* testMode.h */,
+				3CA229E81CB28C0D002758A4 /* testMode.m */,
 			);
 			path = ayi;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				3CA229BC1CB28BBD002758A4 /* ViewController.m in Sources */,
 				3CA229B91CB28BBD002758A4 /* AppDelegate.m in Sources */,
+				3CA229E91CB28C0D002758A4 /* testMode.m in Sources */,
 				3CA229B61CB28BBD002758A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
